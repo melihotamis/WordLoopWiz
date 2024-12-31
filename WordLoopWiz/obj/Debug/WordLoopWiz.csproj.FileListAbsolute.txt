@@ -1,0 +1,17 @@
+C:\Users\Asus\source\repos\WordLoopWiz\WordLoopWiz\obj\Debug\WordLoopWiz.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\WordLoopWiz\WordLoopWiz\obj\Debug\WordLoopWiz.FormStart.resources
+C:\Users\Asus\source\repos\WordLoopWiz\WordLoopWiz\obj\Debug\WordLoopWiz.Properties.Resources.resources
+C:\Users\Asus\source\repos\WordLoopWiz\WordLoopWiz\obj\Debug\WordLoopWiz.csproj.GenerateResource.cache
+C:\Users\Asus\source\repos\WordLoopWiz\WordLoopWiz\obj\Debug\WordLoopWiz.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\WordLoopWiz\WordLoopWiz\bin\Debug\WordLoopWiz.exe.config
+C:\Users\Asus\source\repos\WordLoopWiz\WordLoopWiz\bin\Debug\WordLoopWiz.exe
+C:\Users\Asus\source\repos\WordLoopWiz\WordLoopWiz\bin\Debug\WordLoopWiz.pdb
+C:\Users\Asus\source\repos\WordLoopWiz\WordLoopWiz\obj\Debug\WordLoopWiz.exe
+C:\Users\Asus\source\repos\WordLoopWiz\WordLoopWiz\obj\Debug\WordLoopWiz.pdb
+C:\Users\Asus\source\repos\WordLoopWiz\WordLoopWiz\obj\Debug\WordLoopWiz.Form1.resources
+C:\Users\Asus\source\repos\WordLoopWiz\WordLoopWiz\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Asus\source\repos\WordLoopWiz\WordLoopWiz\obj\Debug\WordLoop.1397944E.Up2Date
+C:\Users\Asus\source\repos\WordLoopWiz\WordLoopWiz\bin\Debug\WordLoopWiz.exe.manifest
+C:\Users\Asus\source\repos\WordLoopWiz\WordLoopWiz\bin\Debug\WordLoopWiz.application
+C:\Users\Asus\source\repos\WordLoopWiz\WordLoopWiz\obj\Debug\WordLoopWiz.exe.manifest
+C:\Users\Asus\source\repos\WordLoopWiz\WordLoopWiz\obj\Debug\WordLoopWiz.application

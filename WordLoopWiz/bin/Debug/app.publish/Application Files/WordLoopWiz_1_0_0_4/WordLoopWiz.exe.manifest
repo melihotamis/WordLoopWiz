@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WordLoopWiz.exe" version="1.0.0.4" publicKeyToken="64a987bb04d56eeb" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WordLoopWiz" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WordLoopWiz.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız,
+           requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması
+         kullanmak istiyorsanız, requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu_UI_v1.52.dll" size="225792">
+      <assemblyIdentity name="Bunifu_UI_v1.52" version="1.3.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>J8jOp+eTrOc3QViBpcFrTi2YzkZgnScugsbJBa0tnzY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WordLoopWiz.exe" size="134088">
+      <assemblyIdentity name="WordLoopWiz" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>duJzCXoe/0B39k7YMF+koNbgAJGqLGlR2unnunqAyzQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="WordLoopWiz.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MELIH-LAPTOP\Asus" issuerKeyHash="96411ff2a8ff3dee06cdb729c927be7fa97d089a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xs9+gBo7v533N/Jh4Ch4ahlGaajjT5K7NuN1/I1NeLI=</DigestValue></Reference></SignedInfo><SignatureValue>eZ9lQXwsu6ke796VdaJD6BS+i5OvXtL/kmLzY6p+4+eiKU9Cms+XyFBFb1sfMOgkPKSxZ7Y2sAj6984DXI0iTzpUh57/pjiGsXYAL2G7w8uRMdJ9V4rTj8WMz4/V1Byik6d3jjG2e5rxCBxsUPsyeuetzFfWhnmSgcI9+Mwa75o=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nTVi55yi9vxcuAYbmDLGuR6YVOWptH/u+BOZfoaV/8r058uMfn5VzMKF+Yo/2L5u982hZOyAfvfxmKy1Zb+leNPFuWSZ0BV4YAu8hphso7cor2W7F52K7Rr7lKl6WZSWdjOd8ispC56GilIiLTZIyLfCi6rx7Sjavu4WAln3s20=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b2784d8dfc75e336bb924fe3a86946196a7828e061f237f79dbf3b1a807ecfc6" Description="" Url=""><as:assemblyIdentity name="WordLoopWiz.exe" version="1.0.0.4" publicKeyToken="64a987bb04d56eeb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MELIH-LAPTOP\Asus</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>fhhT/4Wf6fuyJZ7QKe8gb8dkCuUYfvbkEBxkwmLKrl4=</DigestValue></Reference></SignedInfo><SignatureValue>F2P+dneaGKRdaVUd3DrRZBHjqZ6qTzRXNPoK72/R+1v+G7HiSwknC/+wEM/FvBQ5kpRx0gExRUmTQ7JBY1Jqjn3yTr/IXVNEHJzpjwmygKf0BanvHRjpDe2oC8SLJZD5sJ9H7fXvkAl0w3k8QXGUtBdU1+WDYytSNWOctBnk+nI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nTVi55yi9vxcuAYbmDLGuR6YVOWptH/u+BOZfoaV/8r058uMfn5VzMKF+Yo/2L5u982hZOyAfvfxmKy1Zb+leNPFuWSZ0BV4YAu8hphso7cor2W7F52K7Rr7lKl6WZSWdjOd8ispC56GilIiLTZIyLfCi6rx7Sjavu4WAln3s20=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQF3tUzUVbNKBBu/tXXD/amjANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIATQBFAEwASQBIAC0ATABBAFAAVABPAFAAXABBAHMAdQBzMB4XDTI0MTExMzEzMTMzNVoXDTI1MTExMzE5MTMzNVowLTErMCkGA1UEAx4iAE0ARQBMAEkASAAtAEwAQQBQAFQATwBQAFwAQQBzAHUAczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAnTVi55yi9vxcuAYbmDLGuR6YVOWptH/u+BOZfoaV/8r058uMfn5VzMKF+Yo/2L5u982hZOyAfvfxmKy1Zb+leNPFuWSZ0BV4YAu8hphso7cor2W7F52K7Rr7lKl6WZSWdjOd8ispC56GilIiLTZIyLfCi6rx7Sjavu4WAln3s20CAwEAATANBgkqhkiG9w0BAQsFAAOBgQCcKwifBkp2VsjW4b2IBSgt/qz+Fx0qc7/uQXrr8odZ/i7+Uh3tI4is9CCJ21y2bDS9hp2XkAgLv541T4bWV9j5IhhUkYt+1bm6FEVtYNwAQVUVnPCJhPsJvmFXPwe1IhM22V7jDZ9wG0t3wM4qOXVjN+0I02w+aU7gyvpNQP20Vw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
